@@ -1,0 +1,12 @@
+nav a {
+    text-decoration: none;
+    color: pink;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: blueviolet;
+    background-color: aqua;
+    font-weight: 500;
+    
+}
