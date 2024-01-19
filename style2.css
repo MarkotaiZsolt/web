@@ -13,3 +13,8 @@ div{
     margin: 10px;
     clear: both;
 }
+
+#div2:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
