@@ -15,22 +15,22 @@
 </head>
 <body>
 
-<div class="season">
+<div class="evszak">
   <img src="tavasz.jpg" alt="Tavasz" width="200" height="200">
   <p>Tavasz</p>
 </div>
 
-<div class="season">
+<div class="evszak">
   <img src="nyar.jpg" alt="Nyár" width="200" height="200">
   <p>Nyár</p>
 </div>
 
-<div class="season">
+<div class="evszak">
   <img src="osz.jpg" alt="Ősz" width="200" height="200">
   <p>Ősz</p>
 </div>
 
-<div class="season">
+<div class="evszak">
   <img src="tel.jpg" alt="Tél" width="200" height="200">
   <p>Tél</p>
 </div>
