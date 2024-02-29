@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>szamologep</title>
+</head>
+<body>
+    <input type="button" value="osszeadas" onclick="osszead()">
+    <script>
+        function osszead(){
+            let szam1, szam2, eredmeny;
+            szam1 = Number(prompt("Egyik szam"));
+            while(Number.isNaN(szam1)) {
+                szam1 = Number(prompt("szamot irj be"))
+            }
+
+            szam2 = Number(prompt("másik szám?"));
+            while(Number.isNaN(szam2)) {
+                szam2 = Number(prompt("szamot irj be"))
+            }
+
+            eredmeny + szam1 + szam2;
+            alert("a ket szam osszege: " + eredmeny);
+            
+        }
+    </script>
+</body>
+</html>
