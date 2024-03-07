@@ -9,11 +9,15 @@
 
 <body>
 
-    <form action="">
+    <form action="javascript:void(0)">
         <fieldset>
             <input type="color" name="szin" id="szines">
-           <button onclick="colorChange()">szinesitő</button>
- </fieldset>
+            <button onclick="colorChange()">szinesitő</button>
+        </fieldset>
+        <fieldset>
+            <input type="color" name="szin" id="szines2">
+            <button onclick="colorChange2()">szinesitő2</button>
+        </fieldset>
     </form>
 
 
@@ -23,7 +27,10 @@
 
     <script>
         function colorChange() {
-            document.body.style.backgroundColor = szines.value
+            document.body.style.Color = szines.value
+        }
+        function colorChange2() {
+            document.body.style.backgroundColor = szines2.value
         }
     </script>
 
