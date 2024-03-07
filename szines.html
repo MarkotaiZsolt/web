@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>szinezes jva sripter</title>
 </head>
+
 <body>
 
-    <input type="color" name="szin" id="szines" onchange="colorChange()">
+    <form action="">
+        <fieldset>
+            <input type="color" name="szin" id="szines" onchange="colorChange()">
+        </fieldset>
+    </form>
+
+
+
+    <button onclick="colorChange();">szinesitő</button>
+
+
 
     <script>
-        function colorChange(){
-            document.body.style.backgroundColor = szin.value
+        function colorChange() {
+            document.body.style.backgroundColor = szines.value
         }
     </script>
 
-<button onclick="colorChange();">szinesitő</button>
 
 </body>
+
 </html>
