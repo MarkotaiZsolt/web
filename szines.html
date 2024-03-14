@@ -30,6 +30,9 @@
         <input type="text" value="ADD MEG A NEVEDET TE ROMÁNGUTÁNG">
         <label for="nev">Mi a neved?</label>
         <input type="text" name="neve" id="nev" onchange="nevki()" placeholder="név">
+
+        <input type="password" name="data" id="jel" placeholder="jelszo">
+        <input type="submit" value="küldés2" onclick="set()">
     </fieldset>
 
 
@@ -38,6 +41,9 @@
 
 
     <script>
+        function set() {
+            localStorage.setItem("name", nev.value)
+        }
         function colorChange() {
             document.body.style.Color = szines.value
         }
